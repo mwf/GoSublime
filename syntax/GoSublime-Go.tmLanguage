@@ -304,11 +304,10 @@
 					<key>match</key>
 					<string>(?x)%
                         [#0\- +']*                                  # flags
-                        (\[\d+\])?                                  # field (argument #)
                         [,;:_]?                                     # separator character (AltiVec)
                         ((-?\d+)|(\[\d+\])?\*)?                     # minimum field width
                         (\.((-?\d+)|(\[\d+\])?\*)?)?                # precision
-                        (\[\d+\])?                                  # field (argument #), second optional placement
+                        (\[\d+\])?                                  # field (argument #)
                         [diouxXDOUeEfFgGaAcCsSqpnvtTbyYhHmMzZ%]     # conversion type
                     </string>
 					<key>name</key>
